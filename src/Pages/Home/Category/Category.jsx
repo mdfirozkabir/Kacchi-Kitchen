@@ -22,13 +22,28 @@ const Category = () => {
                 clickable: true,
             }}
             modules={[Pagination]}
-            className="mySwiper"
+            className="mySwiper mb-24"
         >
-            <SwiperSlide><img src={slide1} alt="" /></SwiperSlide>
-            <SwiperSlide><img src={slide2} alt="" /></SwiperSlide>
-            <SwiperSlide><img src={slide3} alt="" /></SwiperSlide>
-            <SwiperSlide><img src={slide4} alt="" /></SwiperSlide>
-            <SwiperSlide><img src={slide5} alt="" /></SwiperSlide>
+            <SwiperSlide className='mb-2'>
+                <img src={slide1}  alt="" />
+                <h3 className='text-4xl ml-20 absolute -mt-20 text-white'>SALADS</h3>
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src={slide2} alt="" />
+                <h3 className='text-4xl ml-20 -mt-20 text-white'>PIZZAS</h3>
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src={slide3} alt="" />
+                <h3 className='text-4xl ml-20 -mt-20 text-white'>SOUPS</h3>
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src={slide4} alt="" />
+                <h3 className='text-4xl ml-20 -mt-20 text-white'>DISSERTS</h3>
+            </SwiperSlide>
+            <SwiperSlide>
+                <img src={slide5} alt="" />
+                <h3 className='text-4xl ml-20 -mt-20 text-white'>SALADS</h3>
+            </SwiperSlide>
         </Swiper>
     );
 };
