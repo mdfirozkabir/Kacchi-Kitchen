@@ -3,6 +3,7 @@ import Banner from '../Banner/Banner';
 import Category from '../Category/Category';
 import ChefService from '../chefService/ChefService';
 import PopularMenu from '../PopularMenu/PopularMenu';
+import Featured from '../Featured/Featured';
  
 
 const Home = () => {
@@ -12,6 +13,7 @@ const Home = () => {
             <Category/>
             <ChefService/>
             <PopularMenu/>
+            <Featured/>
         </div>
     );
 };
